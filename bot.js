@@ -306,4 +306,4 @@ bot.on('ready', () => {
   bot.user.setGame(`명령어보기 ${prefix}help`)
 })
 
-bot.login('MzgxNjU2MTk3MDA0MTMyMzcy.DPKVvg.0YJ5NXdAm9PLuelkBOjshZvi8pw');
+bot.login('process.env.BOT_TOKEN');
